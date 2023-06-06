@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#logo {
+    max-height: 50px;
+    width: auto;
+    padding: 10px
+}
+
+.banner {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 10px 0px;
+    gap: 20px;
+    color: white;
+}
+
+.text {
+    max-width: 400px;
+    margin: 20px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10%;
+    padding: 8px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 18px;
+    color: grey;
+    align-items: center;
+    font-size: 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0px 10px;
+    background: #1F2937;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #1F2937;
+    width: 100%;
+}
+
+img {
+    max-height: 150px;
+    width: auto;
+    margin: 15px;
+}
+
+h1 {
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-size: 26px;
+}
+
+h2 {
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;   
+    margin-bottom: 10px; 
+}
+
+.illustration-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon-text {
+    display: flex;
+    align-content: center;
+    max-width: 50%;
+}
+
+#shield {
+    max-height: 50px;
+    width: auto;
+}
+
+.quote-container {
+    background: #e5e7eb;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote {
+    max-width: 60%;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    padding-top: 30px;
+}
+
+.author {
+    font-size: small;
+    font-weight: bold;
+    padding-bottom: 18px;
+}
+
+.cta {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+
+.cta-container {
+    background: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 65%;
+    border-radius: 5px;
+    padding: 18px;
+    
+}
+
+.cta-text {
+    color: white;
+    padding: 18px;
+
+}
+
+.cta-header, .cta-body {
+    margin: 0;
+}
+
+.cta-header {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#sign-up-2 {
+    border: 1px white solid;
+    background: #3882F6;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+}
